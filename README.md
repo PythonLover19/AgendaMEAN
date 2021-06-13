@@ -1,17 +1,27 @@
-# AgendaMEAN
-API  desarrollada con Express para listar, crear, editar y eliminar validando los campos. A la hora de crear o editar una persona, será necesario realizar las siguientes 
-validaciones sobre los parámetros:
+# Angular
 
-• Nombre: no puede incluir números y la longitud debe ser superior a 3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.13.
 
-• Apellidos: no puede incluir números y la longitud debe ser superior a 3.
+## Development server
 
-• Edad: número comprendido entre 0 y 125.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-• DNI: cadena alfanumérica de 9 caracteres.
+## Code scaffolding
 
-• Cumpleaños: fecha en formato ISO8601.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-• ColorFavorito: no puede incluir números y la longitud debe ser superior a 3.
+## Build
 
-• Sexo: cadena de texto comprendida en la siguiente lista: Hombre, Mujer, Otro, No especificado
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
