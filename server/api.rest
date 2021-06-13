@@ -1,0 +1,30 @@
+GET http://localhost:4000/api/employee
+
+###
+POST http://localhost:4000/api/employee
+Content-Type: application/json
+
+{
+    "nombre": "Pedro",
+    "apellido": "Sanchez",
+    "edad": "24",
+    "dni": "12345678U",
+    "cumpleanos": "2014-03-16",
+    "color": "rojo",
+    "sexo": "mujer"    
+}
+
+###
+GET http://localhost:4000/api/employee/60c22abbd905020e846f746d
+
+###
+DELETE http://localhost:4000/api/employee/60c22abbd905020e846f746d
+
+###
+PUT http://localhost:4000/api/employee/60c5d4f596497a064039ffa8
+Content-Type: application/json
+
+{
+    "color": "verde",
+    "edad": "30"
+}
